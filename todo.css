@@ -1,0 +1,167 @@
+html,
+body{
+
+	font-family: sans-serif;
+	line-height: 30px;
+	letter-spacing: 0.2em;
+	font-size: 1em;
+	color: #333333ff;
+
+}
+.container{
+	max-width: 500px;
+	background: #f9f9f9ff;
+	border-radius: 10px;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 0px 2px 2px 3px #E0E0E0;
+	padding: 10px;
+}
+.header-wrapper{
+	
+}
+.filter, .addItem{
+	width: 100%;
+}
+#search-text{
+	width: 80%;
+	padding: 5px;
+	font-size: 15px;
+	border-radius: 5px;
+	border:2px solid #E0E0E0;
+	font-family: sans-serif;
+}
+.submit-button{
+	width: 15%;
+	padding: 5px;
+	font-size: 15px;
+	border-radius: 5px;
+	color:#E0E0E0 ;
+	background: #333333ff;
+	border: 0px;
+	font-family: sans-serif;
+}
+.submit-button:hover{
+	color:#333333ff ;
+	background: #E0E0E0;
+	font-weight: bold;
+	cursor: pointer;
+}
+.todo-body{
+	/*background: #E0E0E0;*/
+	margin-top: 50px;
+	border-radius: 10px;
+}
+
+#addText{
+	width: 80%;
+	padding: 5px;
+	font-size: 15px;
+	border-radius: 5px;
+	font-family: sans-serif;
+}
+
+.add-button{
+	width: 15%;
+	padding: 5px;
+	font-size: 15px;
+	border-radius: 5px;
+	color:white ;
+	background: #0000ffff;
+	border: 0px;
+	font-family: sans-serif;
+}
+.add-button:hover{
+	color:white ;
+	background: #000080ff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#undone-task{
+	margin-top: 30px;
+	text-align: left;
+	list-style: none;
+	font-size: 18px;
+	
+}
+#undone-task h2{
+text-align: center;
+margin-bottom: 40px;
+}
+#taskName{
+	border-radius: 5px;
+	padding: 5px 10px;
+	
+
+}
+#taskName:nth-child(even){
+	background: lightgray;
+	color: white;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom:  5px;
+}
+
+
+#done{
+	background: green;
+	border: 0px;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+	float: right;
+	margin-top: 2px;
+	margin-right: 15px;
+}
+#delete-task{
+	background: red;
+	border: 0px;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 10px;
+	float: right;
+	margin-top: 2px;
+}
+
+#done-task{
+	text-align: center;
+	margin-top: 50px;
+	list-style: none;
+}
+
+
+
+.border{
+	width: 40%;
+	border: 2px solid #E0E0E0 ;
+	margin: 0 auto;
+}
+#doneTaskName{
+	list-style: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	text-align: left;
+}
+
+
+#doneTaskName .done{
+	background: lightgray;
+	border: 0px;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+	float: right;
+	margin-top: 2px;
+	margin-right: 15px;
+}
+#delete-done-task{
+	background: red;
+	border: 0px;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 10px;
+	float: right;
+	margin-top: 2px;
+}
+
